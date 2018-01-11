@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 24px arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  height: 300px;
+  background: PeachPuff;
+  padding: 20px;
+}
+
+.content {
+  float: left;
+  width: 75%;
+  height: 300px;
+  background: MediumAquamarine;
+  padding: 20px;
+}
+
+.p {
+  font-size: 13px;
+  padding-top: 120px;
+}
+
+@media (max-width: 640px) {
+  .sidebar,
+  .content {
+    float: none;
+    width: auto;
+  }
+
+}
