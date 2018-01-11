@@ -81,5 +81,6 @@ El otro modo que tenemos para crear fuentes responsivas es el uso de los siguien
 - Establecer anchos de CSS absolutos grandes para elementos de página hará que el elemento sea demasiado ancho para la ventana gráfica en un dispositivo más pequeño. Considerar el uso valores de ancho relativo, como ancho: 100%. Además, tengan cuidado de usar valores grandes de posicionamiento absoluto, puede hacer que el elemento se caiga fuera de la ventana gráfica en dispositivos pequeños.
 
 
+
 [Enlace a Ejemplo1](https://victoririx.github.io/CSS-Media/mediasimple)
 [Enlace a Ejemplo2](https://victoririx.github.io/CSS-Media/mediadoble)
